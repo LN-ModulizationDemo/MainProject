@@ -29,20 +29,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>projectB_Category.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7A8B04339BB63A3E7B71966BC8415FC1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D4005F6EBAF5089CA741A75D09A2B368</key>
+		<key>A52B59A7BCD224C617B59AF2BF4052E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DEDB035824F8B78D1A702131E079C6F6</key>
+		<key>BDE9A9D5645EA0D6E673C91ED25611BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F74EF3B8053DB79D5EB59F2C63EF3501</key>
+		<key>F6E879BE429B3297EC85491DD9F8469C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,9 +1,12 @@
 PODS:
   - CTMediator (0.0.3)
   - Masonry (1.0.2)
-  - projectA (0.2.0):
+  - projectA (0.3.0):
     - Masonry
+    - projectB_Category
   - projectA_Category (1.1):
+    - CTMediator
+  - projectB_Category (0.1.0):
     - CTMediator
 
 DEPENDENCIES:
@@ -13,8 +16,9 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  projectA: 980c3a5fb1ac38fc182b8676f68ca73cf2f1bb7d
+  projectA: b96dc268ae419b9be81b0fcb8d24d13e7319ee7a
   projectA_Category: a13b383cdd03debda1fea753cb354a816b2c4bc3
+  projectB_Category: b2d708e1a6955cc9f7388a25853c1e5af7b9d669
 
 PODFILE CHECKSUM: 06d2f535a6e93c83efeccecd3cc05c157e3955f6
 

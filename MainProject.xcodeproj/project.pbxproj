@@ -14,6 +14,7 @@
 		7EF178D41E599B0A00BB07E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF178D31E599B0A00BB07E7 /* Assets.xcassets */; };
 		7EF178D71E599B0A00BB07E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF178D51E599B0A00BB07E7 /* LaunchScreen.storyboard */; };
 		7EF178E01E59A0B300BB07E7 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF178DF1E59A0B300BB07E7 /* BViewController.m */; };
+		7EF178E81E59A36F00BB07E7 /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF178E71E59A36F00BB07E7 /* Target_B.m */; };
 		C161A626061BC42DF0D0D60D /* libPods-MainProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6477CD12F83BF9975E9D5DA0 /* libPods-MainProject.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		7EF178D81E599B0A00BB07E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EF178DE1E59A0B300BB07E7 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		7EF178DF1E59A0B300BB07E7 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		7EF178E61E59A36F00BB07E7 /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		7EF178E71E59A36F00BB07E7 /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		7EF178C61E599B0A00BB07E7 /* MainProject */ = {
 			isa = PBXGroup;
 			children = (
+				7EF178E51E59A35B00BB07E7 /* Target_B */,
 				7EF178CA1E599B0A00BB07E7 /* AppDelegate.h */,
 				7EF178CB1E599B0A00BB07E7 /* AppDelegate.m */,
 				7EF178CD1E599B0A00BB07E7 /* ViewController.h */,
@@ -106,6 +110,15 @@
 				7EF178C81E599B0A00BB07E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF178E51E59A35B00BB07E7 /* Target_B */ = {
+			isa = PBXGroup;
+			children = (
+				7EF178E61E59A36F00BB07E7 /* Target_B.h */,
+				7EF178E71E59A36F00BB07E7 /* Target_B.m */,
+			);
+			name = Target_B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +244,7 @@
 			files = (
 				7EF178CF1E599B0A00BB07E7 /* ViewController.m in Sources */,
 				7EF178E01E59A0B300BB07E7 /* BViewController.m in Sources */,
+				7EF178E81E59A36F00BB07E7 /* Target_B.m in Sources */,
 				7EF178CC1E599B0A00BB07E7 /* AppDelegate.m in Sources */,
 				7EF178C91E599B0A00BB07E7 /* main.m in Sources */,
 			);
