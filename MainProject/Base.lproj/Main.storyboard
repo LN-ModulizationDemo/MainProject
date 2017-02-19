@@ -45,8 +45,19 @@
                                     <action selector="pushToA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tvu-uV-j7F"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhu-pI-34b">
+                                <rect key="frame" x="169" y="434" width="38" height="30"/>
+                                <state key="normal" title="share"/>
+                                <connections>
+                                    <action selector="share:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ySf-sd-SXa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jhu-pI-34b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NZt-1L-8ap"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jhu-pI-34b" secondAttribute="bottom" constant="203" id="yLI-3H-NkL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GNA-mw-fGG"/>
                 </viewController>

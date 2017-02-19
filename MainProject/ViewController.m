@@ -23,6 +23,11 @@
     [self.navigationController pushViewController:A animated:YES];
 }
 
+- (IBAction)share:(id)sender {
+    [[CTMediator sharedInstance] shareWithInfo:@{@"title":@"title"} callBack:^(BOOL Success, NSString *message) {
+        NSLog(@"%@",message);
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
